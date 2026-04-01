@@ -6,8 +6,6 @@
 
 @import "shadcn/tailwind.css";
 
-@import "@fontsource-variable/inter";
-
 @custom-variant dark (&:is(.dark *));
 
 @theme {
@@ -19,9 +17,11 @@
   body {
     @apply font-sans bg-background text-foreground;
   }
+
   * {
     @apply border-border outline-ring/50;
   }
+
   html {
     @apply font-sans;
   }
@@ -30,9 +30,9 @@
 
 @theme inline {
 
-  --font-heading: var(--font-sans);
-
-  --font-sans: 'Inter Variable', sans-serif;
+  --font-heading: "Roboto", sans-serif;
+  /* ← troca para Roboto */
+  --font-sans: "Roboto", sans-serif;
 
   --color-sidebar-ring: var(--sidebar-ring);
 
