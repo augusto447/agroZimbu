@@ -8,25 +8,25 @@ export function HomePage() {
     return (
         <div className="flex flex-col min-h-screen">
 
-            {/* HEADER */}
+
             <Header />
 
-            {/* HERO SECTION */}
+
             <main className="flex-1">
 
                 <section className="relative w-full">
-                    {/* Background Image */}
+
                     <img
                         src={picture}
                         alt="foto principal"
                         className="w-full h-[70vh] sm:h-[80vh] md:h-[85vh] object-cover"
                     />
 
-                    {/* Overlay */}
+
                     <div className="absolute inset-0 bg-black/50 flex items-center justify-center px-4">
                         <div className="text-center max-w-5xl">
 
-                            {/* Title */}
+
                             <h1 className="text-white font-bold leading-tight text-2xl sm:text-4xl md:text-5xl lg:text-6xl drop-shadow-lg">
                                 Transformando a Agricultura
                             </h1>
@@ -39,12 +39,12 @@ export function HomePage() {
                                 </span>
                             </p>
 
-                            {/* Description */}
+
                             <p className="text-white mt-6 text-sm sm:text-base md:text-lg lg:text-xl max-w-3xl mx-auto">
                                 Criando pontes entre o campo e novas oportunidades através de soluções digitais inovadoras que conectam produtores, investidores e tecnologia.
                             </p>
 
-                            {/* Buttons */}
+
                             <div className="flex flex-col sm:flex-row gap-4 mt-10 justify-center items-center">
                                 <Link
                                     to=""
@@ -65,7 +65,6 @@ export function HomePage() {
                     </div>
                 </section>
 
-                {/* SECTIONS */}
                 <Sections />
 
             </main>
