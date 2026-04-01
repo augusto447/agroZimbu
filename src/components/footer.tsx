@@ -58,7 +58,7 @@ export function Footer() {
                 {/* Linha separadora responsiva */}
                 <div className="border-t border-green-700 mt-10 pt-6 flex flex-col md:flex-row gap-3 md:gap-0 items-center justify-between text-center md:text-left">
                     <p className="text-green-400 text-sm">
-                        © 2025 AgroZimbu. Todos os direitos reservados.
+                        © 2026 AgroZimbu. Todos os direitos reservados.
                     </p>
                     <p className="text-green-400 text-sm">
                         Feito com ❤️ em Angola
